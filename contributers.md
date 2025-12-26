@@ -9,6 +9,8 @@
 
 |Arnav Singh | arnavsingh010 |IIIT-A | IIT2025257|
 
+|Aman Sharma | amansharma264 | Sir M Visvesvaraya Institute of Technology, Bangalore |
+
 <!-- ADD ABOVE THIS-->
 <!--example |Korvac | Betty |Reyansh College| IIT2024067|>
 
