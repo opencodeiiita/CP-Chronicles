@@ -25,6 +25,6 @@
 | Ishan Tripathi          | ishantripathi64        | IIIT Allahabad                  |
 | Lavay Garg              | lavaygarg              | IIIT Allahabad                  |
 | Abhishek Tripathi      | Astinel-prime           | IIIT Allahabd                                                    |
-
+| Yash Mhetre            | mhetreyash1905-oss      | IIIT Allahabad                                                   |
 <!-- ADD ABOVE THIS -->
 <!-- example | Korvac | Betty | Reyansh College | -->
