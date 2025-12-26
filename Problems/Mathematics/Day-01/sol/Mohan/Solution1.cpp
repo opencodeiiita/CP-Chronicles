@@ -7,6 +7,9 @@ a,b,c should also be smaler than or equal to n
 Time complexity - O(1)
 Space complexity - O(1)
 
+
+Submission Link : https://codeforces.com/contest/1560/submission/355221224
+
 */
 #include <bits/stdc++.h>
 using namespace std;
