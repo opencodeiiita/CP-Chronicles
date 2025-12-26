@@ -31,6 +31,7 @@
 | Himanshu Vitthalani     | Himanshu-1903          | IIIT Allahabad
 | Abhishek Tripathi      | Astinel-prime           | IIIT Allahabd                                                    |
 | Ibrahim Raza Beg       | PHOX-9                  | IIIT Allahabd                                                    |
+| Vaishali ojha          | Nomen06                  | IIIT Allahabd                                                    |
 | Siddhant Shekhar       | sshekhar563             | United University                                                |
 | Ayush Saha             | verifiedHuman18         | IIIT Allahabad                                                   |
 <!-- ADD ABOVE THIS -->
