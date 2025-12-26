@@ -38,6 +38,7 @@
 | Ayush Saha             | verifiedHuman18         | IIIT Allahabad                                                   |  
 | Khushi Shorey          | khushishorey            | IIIT Allahabad |
 | Manisha katariya       | chanchukatariya5        | IIIT Allahabad                                                   |
+| Ronak Goyal            | ronakgoyal1             | IIIT Allahabad                                                   |
 | Sayed Al Amaan Zaidi           | amaan1114           | Rishihood University                                   |
 | Roshan Gupta           | roshangupta4804-hue        | IIIT Allahabad  
 <!-- ADD ABOVE THIS -->
