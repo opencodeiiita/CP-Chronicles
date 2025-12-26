@@ -25,6 +25,7 @@
 | Ishan Tripathi          | ishantripathi64        | IIIT Allahabad                  |
 | Lavay Garg              | lavaygarg              | IIIT Allahabad                  |
 | Abhishek Tripathi      | Astinel-prime           | IIIT Allahabd                                                    |
+| Ayush Saha             | verifiedHuman18         | IIIT Allahabad                                                   |
 
 <!-- ADD ABOVE THIS -->
 <!-- example | Korvac | Betty | Reyansh College | -->
