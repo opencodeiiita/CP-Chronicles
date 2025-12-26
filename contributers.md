@@ -11,6 +11,8 @@
 
 |Vishva Modh|ViMo018|IIIT Allahabad|
 
+|BEESA MANISH|MANISH-BEESA|MLRIT
+
 <!-- ADD ABOVE THIS-->
 <!--example |Korvac | Betty |Reyansh College| IIT2024067|>
 
