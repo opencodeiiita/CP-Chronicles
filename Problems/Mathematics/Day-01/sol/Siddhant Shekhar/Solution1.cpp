@@ -11,7 +11,7 @@
  * Time Complexity: O(1) per test case
  * Space Complexity: O(1)
  * 
- * Submission Link: [ADD YOUR CODEFORCES SUBMISSION LINK HERE]
+ * Submission Link: https://codeforces.com/contest/1560/submission/355202063
  */
 
 #include <bits/stdc++.h>
