@@ -9,6 +9,8 @@
 
 |Arnav Singh | arnavsingh010 |IIIT-A | IIT2025257|
 
+|Abhay| d2-e2-v2 | IIIT-Allahabad|
+
 <!-- ADD ABOVE THIS-->
 <!--example |Korvac | Betty |Reyansh College| IIT2024067|>
 
