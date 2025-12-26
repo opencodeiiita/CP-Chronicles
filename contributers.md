@@ -21,10 +21,21 @@
 | Saurav Gitte           | SauravGitte             | IIIT Allahabad                                                   |
 | Avaneesh Verma         | avaneeshk2307-wq        | IIIT Allahabad                                                   |
 | Aditya Shirsatrao      | adityashirsatrao007     | N. K. Orchid College Of Engineering & Technology, Solapur        |
+| Sourish Awasthi        | LooninS                 | IIIT Allahabad                                                   |
+| Ishan Tripathi         | ishantripathi64         | IIIT Allahabad                                                   |
+| Lavay Garg             | lavaygarg               | IIIT Allahabad                                                   |
+| Kushagra Sahu          | KushagraSahu-01         | IIIT Allahabad                                                   |
 | Sourish Awasthi         | LooninS                | IIIT Allahabad                  |
 | Ishan Tripathi          | ishantripathi64        | IIIT Allahabad                  |
 | Lavay Garg              | lavaygarg              | IIIT Allahabad                  |
+| Aditi Guin               |GuinAditi              |KIIT |
+| Himanshu Vitthalani     | Himanshu-1903          | IIIT Allahabad
 | Abhishek Tripathi      | Astinel-prime           | IIIT Allahabd                                                    |
 | Ibrahim Raza Beg       | PHOX-9                  | IIIT Allahabd                                                    |
+| Vaishali ojha          | Nomen06                  | IIIT Allahabd                                                    |
+| Siddhant Shekhar       | sshekhar563             | United University                                                |
+| Ayush Saha             | verifiedHuman18         | IIIT Allahabad                                                   |  
+| Khushi Shorey          | khushishorey            | IIIT Allahabad |
+| Manisha katariya       | chanchukatariya5        | IIIT Allahabad                                                   |
 <!-- ADD ABOVE THIS -->
 <!-- example | Korvac | Betty | Reyansh College | -->
