@@ -1,3 +1,4 @@
+// https://codeforces.com/contest/1225/submission/355220031
 /*
  * Problem: Perfect k-th Power Pairs
  * We need to find how many pairs in the array multiply to form a perfect k-th power.
