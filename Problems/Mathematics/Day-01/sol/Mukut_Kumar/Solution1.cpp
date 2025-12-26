@@ -10,7 +10,9 @@
  * the complement exponents needed to reach the next multiple of k.
  */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <map>
 using namespace std;
 
 #define ll long long
