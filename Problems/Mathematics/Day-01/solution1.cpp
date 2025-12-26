@@ -13,6 +13,7 @@ Approach :
 
 Time Complexity: O(1) per test case
 Space Complexity: O(1)
+https://github.com/Tabassumasra05/CP-Chronicles/commit/ffb78ef1998b2ec2b166c9d08a94417c73d54dd7
 
 
 */
