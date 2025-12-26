@@ -37,5 +37,6 @@
 | Ayush Saha             | verifiedHuman18         | IIIT Allahabad                                                   |  
 | Khushi Shorey          | khushishorey            | IIIT Allahabad |
 | Manisha katariya       | chanchukatariya5        | IIIT Allahabad                                                   |
+| Sayed Al Amaan Zaidi           | amaan1114           | Rishihood University                                   |
 <!-- ADD ABOVE THIS -->
 <!-- example | Korvac | Betty | Reyansh College | -->
