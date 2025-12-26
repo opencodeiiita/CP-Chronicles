@@ -35,5 +35,6 @@
 | Siddhant Shekhar       | sshekhar563             | United University                                                |
 | Ayush Saha             | verifiedHuman18         | IIIT Allahabad     
 | Khushi Shorey          | khushishorey            | IIIT Allahabad
+| Shailesh Kumar         | codeshailesh18          | IIIT Una                                                           |
 <!-- ADD ABOVE THIS -->
 <!-- example | Korvac | Betty | Reyansh College | -->
