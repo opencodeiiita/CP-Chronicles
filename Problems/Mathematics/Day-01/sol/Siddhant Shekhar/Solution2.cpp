@@ -9,7 +9,7 @@
  * Time Complexity: O(n * sqrt(max_a) * log(max_a))
  * Space Complexity: O(n)
  * 
- * Submission Link: [ADD YOUR CODEFORCES SUBMISSION LINK HERE]
+ * Submission Link:https://codeforces.com/contest/1225/submission/355203315
  */
 
 #include <bits/stdc++.h>
