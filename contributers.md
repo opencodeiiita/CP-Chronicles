@@ -17,6 +17,7 @@
 | Himansh Arora           | Humanshere             |  IIIT Allahabad                 | 
 | Kushagra Raghuvanshi    | Taskmaster-afk         | IIIT Allahabad                  |
 | Kamakshi Gupta          | 29kamakshigupta        | IIIT Allahabad                  |
+| Saurav Gitte            | SauravGitte            | IIIT Allahabad                  |
  <!-- ADD ABOVE THIS -->
 <!-- example | Korvac | Betty | Reyansh College | -->
 
