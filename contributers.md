@@ -66,5 +66,6 @@
 | Samarth Patel          | capricemoto              | IIIT Allahbad                                                     |
 | Divakar Bhatt          | wodivakar                | IIIT Allahabad                                                  |
 | Aiyaan Mahajan        | Aiyaan-Mahajan | NIT Srinagar |
+| Arushi Pandey         | Arushi2911     | NMIMS Chandigarh |
 
 <!-- example | Korvac | Betty | Reyansh College | -->
