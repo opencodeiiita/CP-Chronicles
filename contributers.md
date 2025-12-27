@@ -45,6 +45,7 @@
 | Ronak Goyal            | ronakgoyal1             | IIIT Allahabad                                                   |
 | Sayed Al Amaan Zaidi           | amaan1114           | Rishihood University                                   |
 |Aditya Singh            | adityasingh-0803         | BVDUCOEP                                                        |
-| Ishan Raj Singh        | ishanrajsingh            | Amity, Noida                                                    |
+| Ishan Raj Singh        | ishanrajsingh            | Amity, Noida         
+|Priyanshi Giri          | hellopaintinghi-cmd      | IIIT Allahabad                                           |
 <!-- ADD ABOVE THIS -->
 <!-- example | Korvac | Betty | Reyansh College | -->
