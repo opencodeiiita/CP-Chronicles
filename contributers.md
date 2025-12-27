@@ -48,7 +48,8 @@
 | Mahavir dodiya         |Mvdodiya001               |  IIIT Allahabad                                                 |
 | Ishan Raj Singh        | ishanrajsingh            | Amity, Noida                                                    |
 | Lakshmish            | Coldesy             | IIIT Allahabad 
-|Priyanshu Ranjan        | justpriyanshu            | BIT Mesra
+|Priyanshu Ranjan        | justpriyanshu            | BIT Mesra                                                       |
+| Naman Pal              | Naman2251                | IIIT Allahabad                                                 |
 
 <!-- ADD ABOVE THIS -->
 <!-- example | Korvac | Betty | Reyansh College | -->
