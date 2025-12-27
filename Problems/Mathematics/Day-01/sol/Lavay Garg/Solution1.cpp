@@ -1,0 +1,62 @@
+/*# PROBLEM STATEMENT :
+
+There are **n people** standing in a circle. They are numbered from **1 to n** in a clockwise order. The circle is **even** (i.e. *n* is even).
+
+Each person is looking at the person standing exactly opposite him in the circle.
+
+You are given three **distinct** integers **a**, **b**, and **c**. It is known that person **a** is looking at person **b**.
+
+Determine the number of the person that person **c** is looking at.  
+If there are **multiple answers**, print **any** of them.  
+If there is **no answer**, print **-1**.*/
+/*## Example
+
+### Input
+```
+7
+6 2 4
+2 3 1
+2 4 10
+5 3 4
+1 3 2
+2 5 4
+4 3 2
+```
+
+
+### Output
+```
+8
+-1
+-1
+-1
+4
+1
+-1
+```*/
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        int a, b, c;
+        cin >> a >> b >> c;
+
+        int diff = abs(a - b);
+        int N = 2 * diff;
+        if (diff == 0 || max({a, b, c}) > N) {
+            cout << -1 << '\n';
+            continue;
+        }
+
+        if (c > N / 2) {
+            cout << c - N / 2 << '\n';
+        } else {
+            cout << c + N / 2 << '\n';
+        }
+    }
+}
+//Time complexity =O(t)
+//Space complexity=O(1)
