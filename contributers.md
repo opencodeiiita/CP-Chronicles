@@ -54,5 +54,7 @@
 |Kunwar Gaba | kunwargaba10 |IIIT Allahabad|
 | Roshan Gupta           | roshangupta4804-hue        | IIIT Allahabad  |
 |Vishal|Cosmic-Viz|IIIT Allahabad|
+|Aditya Singh            | adityasingh-0803         | BVDUCOEP                                                        |
+| Ishan Raj Singh        | ishanrajsingh            | Amity, Noida                                                    |
 <!-- ADD ABOVE THIS -->
 <!-- example | Korvac | Betty | Reyansh College | -->
