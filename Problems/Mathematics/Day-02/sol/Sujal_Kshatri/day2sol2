@@ -1,0 +1,76 @@
+// submission llink - https://codeforces.com/contest/1475/submission/355598230
+
+#include <bits/stdc++.h>
+using namespace std;
+
+static const long long MOD = 1000000007;
+
+/*
+Approach:
+1. To maximize the total number of followers, we must select the k bloggers
+   with the largest follower counts.
+2. Sort the array in descending order.
+3. Let `threshold` be the k-th largest value (a[k-1] after sorting).
+4. All values greater than `threshold` must be selected.
+5. Among the bloggers with follower count equal to `threshold`:
+   - `need` = how many of them appear in the top k positions
+   - `total` = how many times `threshold` appears in the entire array
+6. The number of ways to choose these bloggers is:
+      C(total, need)
+7. Use factorials and modular inverses to compute combinations efficiently
+   modulo 1e9+7.
+*/
+
+long long modpow(long long a, long long b){
+    long long res = 1;
+    while(b){
+        if(b & 1) res = res * a % MOD;
+        a = a * a % MOD;
+        b >>= 1;
+    }
+    return res;
+}
+
+int main(){
+  
+    const int MAXN = 1000;
+    vector<long long> fact(MAXN + 1), invfact(MAXN + 1);
+
+    fact[0] = 1;
+    for(int i = 1; i <= MAXN; i++)
+        fact[i] = fact[i - 1] * i % MOD;
+
+    invfact[MAXN] = modpow(fact[MAXN], MOD - 2);
+    for(int i = MAXN; i > 0; i--)
+        invfact[i - 1] = invfact[i] * i % MOD;
+
+    auto comb = [&](int n, int r){
+        if(r < 0 || r > n) return 0LL;
+        return fact[n] * invfact[r] % MOD * invfact[n - r] % MOD;
+    };
+
+    int t;
+    cin >> t;
+    while(t--){
+        int n, k;
+        cin >> n >> k;
+
+        vector<int> a(n);
+        for(int i = 0; i < n; i++) cin >> a[i];
+
+        sort(a.begin(), a.end(), greater<int>());
+
+        int threshold = a[k - 1];
+        int need = 0, total = 0;
+
+        for(int i = 0; i < k; i++)
+            if(a[i] == threshold) need++;
+
+        for(int i = 0; i < n; i++)
+            if(a[i] == threshold) total++;
+
+        cout << comb(total, need) << "\n";
+    }
+
+    return 0;
+}

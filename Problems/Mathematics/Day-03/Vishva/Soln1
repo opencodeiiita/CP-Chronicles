@@ -1,0 +1,145 @@
+#include<bits/stdc++.h>
+#include<queue>
+using namespace std;
+typedef unordered_map<int, int> umii;
+typedef unordered_map<long long, long long> umll;
+typedef unordered_map<char, long long> umci;
+typedef vector<pair<int, int>> vpi;
+typedef vector<int> vi;
+typedef long long ll;
+typedef vector<long long> vll;
+typedef unordered_map<int , bool> umib;
+#define sum(v) accumulate(v.begin(), v.end(), 0)
+#define endl '\n'
+#define f0(i, n) for(long long i = 0; i < n; i++)
+#define f1(i, n) for(long long i = 1; i < n; i++)
+#define as(v) sort(v.begin(), v.end())
+#define all(x) (x).begin(), (x).end()
+#define pb push_back
+template<class T> umll frequency(vector<T> &v) {umll freq;for(auto &x:v) freq[x]++; return freq;}
+template<class T> umci S_frequency(vector<T> &v) {umci freq;for(auto &x:v) freq[x]++; return freq;}
+template <class T> void input(vector<T> &v){for(auto &x:v)cin>>x;}
+ll power(ll x, ll y){ ll res = 1; while (y > 0){ if (y & 1) res = (ll)(res*x); y = y>>1; x = (ll)(x*x); } return res; }
+void pvll(const vector<long long> &arr){for(auto it : arr){cout << it << " ";}cout << endl;}
+void pvi(const vector<int> &arr){for(auto it : arr){cout << it << " ";}cout << endl;}
+
+const int N=7;
+ll ans =0;
+vector<vector<ll>> vis(N, vector<ll>(N, 0));
+string s;
+
+bool inside(ll i,ll j)
+{
+    // this is to check whether our pointer is in bounded area or not
+    return i>=0 && i<N && j>=0 && j<N;
+}
+
+void dfs(ll x,ll y,ll step)
+{
+    // Base Condition
+
+    if(step == N*N-1 || (x== N-1 && y==0))
+    {
+        // if i reached bottom left with 48 steps
+        if(step == N*N-1 && (x== N-1 && y==0))
+        {
+
+            ans+=1;
+        }
+        return;
+    }
+
+    // Trapped Optimisation
+
+    // above and below are visited(or out of bounds) and left and righ is free
+
+    if((!inside(x-1,y) || vis[x-1][y]) && (!inside(x+1,y) || vis[x+1][y]))
+    {
+        if(inside(x,y-1) && !vis[x][y-1] && inside(x,y+1) && !vis[x][y+1])
+        {
+            return;
+            // TRAPPED
+        }
+    }
+
+    // left and right are visited/out of bound and up and down are free
+
+    if((!inside(x,y-1) || vis[x][y-1]) && (!inside(x,y+1) || vis[x][y+1]))
+    {
+        if(inside(x-1,y) && !vis[x-1][y] && inside(x+1,y) && !vis[x+1][y])
+        {
+            return;
+            //TRAPPED
+        }
+    }
+
+    // mark the visited cell as one so we dont visit again
+
+    vis[x][y] =1;
+
+    if(s[step]=='?' || s[step] == 'L')
+    {
+        if(inside(x,y-1) && !vis[x][y-1])
+        {
+            dfs(x,y-1,step+1);
+        }
+    }
+    if(s[step] == '?' || s[step] == 'R')
+    {
+        if(inside(x,y+1) && !vis[x][y+1])
+        {
+            dfs(x,y+1,step+1);
+        }
+    }
+    if(s[step] == '?' || s[step] == 'U')
+    {
+        if(inside(x-1,y) && !vis[x-1][y])
+        {
+            dfs(x-1,y,step+1);
+        }
+    }
+    if(s[step] == '?' || s[step] == 'D')
+    {
+        if(inside(x+1,y) && !vis[x+1][y])
+        {
+            dfs(x+1,y,step+1);
+        }
+    }
+
+    //backtracking after exploring one route now i will go back and will do vis[x][y] = 0;
+
+    vis[x][y]=0;
+
+
+
+}
+
+// SUBMISSION LINK:- https://cses.fi/problemset/result/15756456/
+
+
+
+void solve(){
+    cin >> s;
+
+    dfs(0,0,0);
+    cout << ans << endl;
+
+    // TimeComplexity :- O(48*88414) == O(48*1e5)
+
+    //SpaceComplexity = O(49)
+    
+//-------------INPUT-------------
+
+
+
+//-------------CODE--------------
+    
+
+
+}
+
+
+int main(){
+    //int tt; cin >> tt; while(tt--)
+{solve();};
+}
