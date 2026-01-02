@@ -47,8 +47,6 @@ void solve(void)
  
 int main(void)
 {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
     i64 n = 1e6,nn = 1e18;
     for(i64 i = 2;i <= n;i++)
     {
