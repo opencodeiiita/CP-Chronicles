@@ -2,7 +2,7 @@
 1) Submission Link: https://www.codechef.com/viewsolution/1223475549
 2) Problem: Perfect Ranges (PERRANGES)
    Link: https://www.codechef.com/problems/PERRANGES
-   Author: Krishna200608
+   Author: Krishna200608 
 
 3) Short Problem Statement:
    Given two arrays A and B of size N. A range [L, R] is perfect if we can pick
