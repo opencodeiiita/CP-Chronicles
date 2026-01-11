@@ -87,6 +87,7 @@
 | Anshdeep Singh | Anshdeep-Singh-9 | IIIT Allahabad |
 | Debojyoti Chakrabarti | debo5000 | IIIT Allahabad |
 | Devanshu Chotiya | devanshuwebd | IIT Dhanbad |
-| Prajjawal Vaishya      | Prajjawal-Vaishya          | Amity University Online Noida                                    |
+| Prajjawal Vaishya      | Prajjawal-Vaishya          | Amity University Online Noida  
+| Mann Kumar Gupta | mann126 | IIIT Allahabad |                                |
 <!-- ADD ABOVE THIS -->
 <!-- example | Korvac | Betty | Reyansh College | -->
