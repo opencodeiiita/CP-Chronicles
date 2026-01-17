@@ -93,5 +93,6 @@
 |Rudra Mina|rudraminaa|IIIT Allahabad|
 | Anukriti Jain          | heyAnukritiJain            | Banasthali Vidyapith 
 | Aakriti Singh           | AakritiSingh05            | Banasthali Vidyapith                                             |
+| Savan Modha | CoderMS07 | LDCE
 <!-- ADD ABOVE THIS -->
 <!-- example | Korvac | Betty | Reyansh College | -->
